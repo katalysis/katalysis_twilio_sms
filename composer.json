@@ -1,0 +1,16 @@
+{
+    "name": "katalysis/katalysis-twilio-sms",
+    "description": "Twilio SMS integration package for Concrete CMS",
+    "type": "concrete5-package",
+    "require": {
+        "php": ">=7.4",
+        "twilio/sdk": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Concrete\\Package\\KatalysisTwilioSms\\Src\\KatalysisTwilioSms\\": "src/KatalysisTwilioSms/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
